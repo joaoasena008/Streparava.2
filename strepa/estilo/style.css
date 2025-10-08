@@ -1,0 +1,126 @@
+/* Armário */
+
+body {
+    background: #fff !important;
+    font-family: 'Segoe UI', Arial, sans-serif !important;
+    color: #222 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative !important;
+    min-height: 100vh !important;
+    background: none !important;
+}
+
+h1 {
+    color: #e72512 !important;
+    font-weight: 700 !important;
+    margin-bottom: 24px !important;
+    text-align: center !important;
+}
+form {
+    max-width: 420px !important;
+    margin: 40px auto !important;
+    background: rgba(255,255,255,0.85) !important;
+    border-radius: 12px !important;
+    box-shadow: 20px 8px 32px 0 rgba(0,0,0,0.18), 0 1.5px 6px 0 rgba(231,37,18,0.10) !important;
+    padding: 32px 28px 24px 28px !important;
+}
+.input {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 18px !important;
+    margin-bottom: 28px !important;
+}
+.input input[type="text"] {
+    border: 1.5px solid #e72512 !important;
+    border-radius: 6px !important;
+    padding: 12px 14px !important;
+    font-size: 1rem !important;
+    transition: border 0.2s !important;
+    background: #fff !important;
+    color: #222 !important;
+}
+.input input[type="text"]:focus {
+    border-color: #e72512 !important;
+    outline: none !important;
+    background: #fff !important;
+}
+.botoes {
+    display: flex !important;
+    justify-content: center !important;
+}
+.btn-danger {
+    background: #e72512 !important;
+    border: none !important;
+    padding: 12px 36px !important;
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+    border-radius: 6px !important;
+    transition: background 0.2s !important;
+    box-shadow: 0 2px 8px rgb(255, 255, 255) !important;
+    color: #fff !important;
+}
+.btn-danger:hover {
+    background: #b81c0f !important;
+}
+.btn-danger:focus {
+    background: #e72512 !important;
+}
+@media (max-width: 600px) {
+    form {
+        padding: 18px 8px 16px 8px !important;
+    }
+    .header {
+        padding: 10px 0 !important;
+    }
+}
+.navbar {
+    background-color: #fefefe !important;
+    padding: 2px 200px !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05) !important;
+    height: 100px !important;
+    display: flex !important;
+    margin: 0% !important;
+}
+.navbar-brand {
+    display: flex !important;
+    align-items: center !important;
+}
+.navbar-brand img {
+    height: 100px !important;
+    width: 220px !important;
+    object-fit: contain !important;
+    margin: 0% !important;
+}
+/* Imagem de fundo */
+body::before {
+    content: "" !important;
+    position: fixed !important;
+    top: 0 !important; left: 0 !important; right: 0 !important; bottom: 0 !important;
+    z-index: -2 !important;
+    background-image: url('../img/1719902032553.jpg') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+}
+body::after {
+    content: "" !important;
+    position: fixed !important;
+    top: 0 !important; left: 0 !important; right: 0 !important; bottom: 0 !important;
+    z-index: -1 !important;
+    background: rgba(0, 0, 0, 0.726) !important;
+}
+
+form:focus-within .input input[type="text"] {
+    border-color: #b81c0f !important;
+    background: #ffffff !important;
+    box-shadow: 0 0 0 2px #e7251233 !important;
+    transition: border-color 0.2s, background 0.2s, box-shadow 0.2s !important;
+}
+
+.btn:hover {
+    cursor: pointer !important;
+    opacity: 0.6 !important;
+
+}

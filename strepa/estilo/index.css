@@ -1,0 +1,104 @@
+ /* 4.1 -body-div-form-inputs-buttons */
+body{
+    /* cor de fundo - background-color */
+background-color: #000000;
+/* definir margem do body */
+margin: 0;
+/* Tornar o display flex-> Permite posicionar  */
+/* os elementos livremente na horizontal e vertical */
+display: flex;
+/* Centraliza  os elementos horizontalmente */
+justify-content: center;
+/* Centraliza  os elementos verticalmente */
+align-items: center;
+/* espaçamento entre os elementos */
+padding:100px;
+}
+
+.login{
+    /*  Ajustar a largura da div */
+width: 300px;
+
+}
+.login{
+    /*  Ajustar a largura da div */
+width: 30%;
+/* cor de fundo */
+
+background-color: #ffffff;
+padding: 20px;
+
+/* reover a margem do formulario */
+/* margin: 0; */
+
+/* Centralizar os elementos */
+text-align: center;
+/* Estilo de borda cantos arredondados */
+border-radius:10px;
+
+
+/* Aplicar sombra  ao elemento- 1.espalha (spray)
+, 2-tamanho em baixo, 3-transparencia, 4- area total ocupada */
+box-shadow: 10px 25px 10px 2px rgba(0, 0, 0, 0.7);
+}
+.titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: #000000;
+}
+input{
+    /* escolher a fonte  */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Tamanho da fonte */
+    font-size: 16px;
+    color: #ffffff;
+      
+    /* Remover borda: */
+    border: 0;
+    /* Remover borda de seleção */ 
+    outline: 0;
+    background: #b2e9a1;
+    /* Espaçamento entre os elementos  */
+    padding: 10px;
+    /* margem entre os elementos  */
+    margin: 8px ;
+    /* Centralizando o o texto que esá dentro do formulario */
+    text-align: center;
+    width: 70%;
+    /* Aplicar sombra  ao elemento- 1.espalha (spray)
+, 2-tamanho em baixo, 3-transparencia, 4- area total ocupada */
+    box-shadow: 3px 5px 10px 2px rgba(0, 0, 0, 0.7);
+    /* Estilo de borda cantos arredondados */
+    border-radius: 6px;
+   
+    
+}
+button{
+    /* Selecionar fonte  */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Texto maiusculo */
+    text-transform: uppercase;
+    /* Remover border- */
+    border: 0;
+    /* cor do botão */
+    background:#252525;
+    /* cor da letra */
+    color:#ffffff;
+    width: 30%;
+    /* largura da fonte */
+    font-size: 20px;
+    /* Ponteiro do mouse  */
+    cursor: pointer;
+    border-radius: 3px;
+    /* Estilo de borda cantos arredondados */
+
+} 
+button:hover, button:focus{
+    /* 4.2 Configurar efeito hover no botão */
+    /* Alterar a propiedade do componente quando o mouse estiver sobre ele */
+    background-color:#000000;
+    color: #ffffff;
+}
+.lg{
+    width:100%;
+}
